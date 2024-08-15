@@ -248,6 +248,252 @@ Answer: a) A will be converted to FLOAT DEC
 
 
 ``````````````````````````````````````````````````````````````````````````````````````````````
+IMAGE 1:
+1. What is the difference between Based and Define?
+MCQ:
+a) Based defines a variable relative to a pointer, while Define is used for a variable that already exists.
+b) Based is used for file declaration, while Define is used for record layout.
+c) Based is used for dynamic memory, Define for constant memory allocation.
+
+Answer: a) Based defines a variable relative to a pointer, while Define is used for a variable that already exists.
+
+2. What are storage classes in PL/1?
+MCQ:
+a) AUTOMATIC, STATIC, CONTROLLED, and INITIAL
+b) AUTOMATIC, STATIC, REGISTER, and VOLATILE
+c) VOLATILE, STATIC, CONTROLLED, and ALLOCATED
+
+Answer: a) AUTOMATIC, STATIC, CONTROLLED, and INITIAL
+
+3. What are the file formats supported in PL/1?
+MCQ:
+a) ASCII, EBCDIC, Binary
+b) Sequential, Direct, Indexed, and Mixed
+c) Sequential, Indexed, and Relative
+
+Answer: c) Sequential, Indexed, and Relative
+
+4. Why do you need Translate?
+MCQ:
+a) To convert between different encodings
+b) To map character sets
+c) To perform string substitution
+
+Answer: c) To perform string substitution
+
+5. How do you include a copybook?
+MCQ:
+a) COPY statement
+b) INCLUDE statement
+c) INSERT statement
+
+Answer: b) INCLUDE statement
+
+6. What are the ways through which you pass value to a program from JCL?
+MCQ:
+a) By using the PARM parameter
+b) By using the SYSIN statement
+c) Both a and b
+
+Answer: c) Both a and b
+
+7. Difference between main program and a subprogram in PL/1?
+MCQ:
+a) The main program cannot be called by another program, while a subprogram can.
+b) A subprogram does not have a PROC statement.
+c) Both execute in the same context.
+
+Answer: a) The main program cannot be called by another program, while a subprogram can.
+
+8. Pseudo Variables in PL/1?
+MCQ:
+a) They are used for debugging.
+b) They act as aliases for other variables.
+c) They are system variables provided by PL/1.
+
+Answer: c) They are system variables provided by PL/1.
+
+9. Difference between Do While and Do Until?
+MCQ:
+a) Do While checks the condition at the start, Do Until checks at the end.
+b) Do Until runs the loop at least once.
+c) Do While is an infinite loop by default.
+
+Answer: b) Do Until runs the loop at least once.
+
+10. What is not a datatype in PL/1?
+MCQ:
+a) INTEGER
+b) BIT
+c) CHAR
+d) LIST
+
+Answer: d) LIST
+
+11. How do you handle exception in PL/1?
+MCQ:
+a) Using the ON statement
+b) Using the TRY-CATCH block
+c) Using the HANDLE statement
+
+Answer: a) Using the ON statement
+
+12. Picture clause of TIME in PL/1?
+MCQ:
+a) '99.99.99'
+b) 'HH:MM
+'
+c) 'MM/DD/YYYY'
+
+Answer: b) 'HH:MM
+'
+
+13. Explain REENTRANT?
+MCQ:
+a) A program that can be re-entered and resumed after an interruption.
+b) A program that modifies itself during execution.
+c) A program that runs indefinitely.
+
+Answer: a) A program that can be re-entered and resumed after an interruption.
+
+14. What are the different clauses in OPTIONS?
+MCQ:
+a) MAIN, REENTRANT, INTERPRET
+b) ENTRY, REENTRANT, STRING
+c) MAIN, OPTIMIZE, NOTEST
+
+Answer: c) MAIN, OPTIMIZE, NOTEST
+
+15. What is meant by REORDER option in PL/1?
+MCQ:
+a) It reorders data in memory.
+b) It optimizes loops and instruction sequences.
+c) It rearranges fields in a structure.
+
+Answer: b) It optimizes loops and instruction sequences.
+
+16. What type of Dataitem declaration is the following ?DCL A DECIMAL
+MCQ:
+a) A fixed-point decimal number
+b) A floating-point decimal number
+c) A variable-length decimal number
+
+Answer: a) A fixed-point decimal number
+
+17. What type of Dataitem declaration is the following ?DCL DD FLOAT(16);
+MCQ:
+a) A single-precision floating-point number
+b) A double-precision floating-point number
+c) A quadruple-precision floating-point number
+
+Answer: b) A double-precision floating-point number
+
+18. What will be the output of the below statement?
+PUT LIST (50, ‘ ’, ‘abc’, ‘ ’,123.445)
+MCQ:
+a) 50 abc 123.445
+b) 50 , abc , 123.445
+c) 50 abc 123445
+
+Answer: a) 50 abc 123.445
+
+19. What is the significance of SKIP in PUT LIST?
+MCQ:
+a) Skips a line after printing.
+b) Skips a space before printing.
+c) Skips to a new page.
+
+Answer: a) Skips a line after printing.
+
+20. What will be the output of the below?
+NAME1 = ‘IIS’; NAME2 = ‘INFOTECH’; COMPANY_NAME = NAME1 || NAME2;
+MCQ:
+a) IIS INFOTECH
+b) IISINFOTECH
+c) INFOTECH IIS
+
+Answer: b) IISINFOTECH
+
+21. What will be the output of the below Arithmetic Function?
+FLOOR(3.333)
+MCQ:
+a) 3
+b) 4
+c) 3.33
+
+Answer: a) 3
+
+22. What will be the output of the below Arithmetic Function?
+CEIL(3.333)
+MCQ:
+a) 4
+b) 3.34
+c) 3
+
+Answer: a) 4
+
+23. What will be the output of the below Arithmetic Function?
+SIGN(-4)
+MCQ:
+a) -1
+b) 1
+c) 0
+
+Answer: a) -1
+
+24. Which of the following is correct code to replace String 'CAT' With 'BAT'?
+MCQ:
+a) TRANSLATE('CAT','BAT')
+b) SUBSTR('CAT', 'BAT')
+c) REPLACE('CAT', 'BAT')
+
+Answer: a) TRANSLATE('CAT','BAT')
+
+25. Which of the following is correct output of the code below?
+SUBSTR('IIS INFOTECH', 5, 4)
+MCQ:
+a) INFT
+b) INFO
+c) OTEC
+
+Answer: b) INFO
+
+26. DATE returns date in the form of ???
+MCQ:
+a) MM/DD/YYYY
+b) YYYYMMDD
+c) DD/MM/YYYY
+
+Answer: b) YYYYMMDD
+
+27. Which of the following is correct output of the code below?
+DCL A CHAR(2) INIT('AB'); PUT LIST (UNSPEC(A)); --- prints the binary equivalent of 'AB'
+MCQ:
+a) Binary equivalent of 'AB'
+b) 01000001 01000010
+c) A0B
+
+Answer: a) Binary equivalent of 'AB'
+
+28. What does the first statement in the code below specify?
+DCL A CHAR(2) INIT('AB');
+MCQ:
+a) Declares and initializes variable A
+b) Declares a character array A
+c) Declares a procedure A
+
+Answer: a) Declares and initializes variable A
+
+29. Which one of the options is true for the below statement?
+DCL A FIXED DEC,B FLOAT DEC; Y = A + B;
+MCQ:
+a) A will be converted to FLOAT DEC
+b) B will be converted to FIXED DEC
+c) The statement will cause a runtime error.
+
+Answer: a) A will be converted to FLOAT DEC
+
+
 IMAGE 2 :
 1. What will be the Output of the below statement?
 DCL A FIXED DEC(4); DCL B FIXED DEC(5) INIT(12345); A=B;
