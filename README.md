@@ -1,6 +1,7 @@
 # PL1_MCQ-s
 All Multiple Choice Question Of PL/1 Language.
 
+IMAGE 1:
 1. What is the difference between Based and Define?
 MCQ:
 a) Based defines a variable relative to a pointer, while Define is used for a variable that already exists.
@@ -244,6 +245,7 @@ b) B will be converted to FIXED DEC
 c) The statement will cause a runtime error.
 
 Answer: a) A will be converted to FLOAT DEC
+
 
 ``````````````````````````````````````````````````````````````````````````````````````````````
 IMAGE 2 :
